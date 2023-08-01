@@ -1,3 +1,11 @@
+/*Definiendo varibles para emplear en los estilos*/
+:root {
+    --blanco: #ffffff;
+    --azul: #023047;
+    --amarillo: #fca311;
+    
+}
+
 /*Añadiendo estilos generales al proyecto*/
 html {
     /*Hack para solucionar el problema del BoxModel*/
@@ -44,5 +52,15 @@ h1.titulo {
 h1.titulo span {
     font-size: 2rem;
     font-style: italic;
+}
+
+.contendor {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    color: ;
 }
 
