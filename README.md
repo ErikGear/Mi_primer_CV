@@ -1,4 +1,4 @@
-## Creación de un primir CV empleando tecnologias WEB
+## Creación de un primer CV empleando tecnologias WEB
 
 Las tecnologias a emplear son:
 
