@@ -37,3 +37,12 @@ h1, h1, h3 {
     text-align: center;
 }
 
+h1.titulo {
+    font-weight: bold;
+}
+
+h1.titulo span {
+    font-size: 2rem;
+    font-style: italic;
+}
+
