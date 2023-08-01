@@ -1,0 +1,18 @@
+/*Añadiendo estilos generales al proyecto*/
+html {
+    /*Hack para solucionar el problema del BoxModel*/
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    /*
+    Segunda parte del Hack para solucionar los problemas 
+    del BoxModel
+
+    Esto significa que todos los elementos que se creen antes 
+    o depues emplearan la propiedad BORDER-BOX, del elemento raiz
+    */
+    box-sizing: inherit;
+}
+
