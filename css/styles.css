@@ -2,6 +2,9 @@
 html {
     /*Hack para solucionar el problema del BoxModel*/
     font-size: 62.5%;
+
+    /*De finiendo la familia tipografica para todo el documento*/
+    font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,7 +18,6 @@ html {
     */
     box-sizing: inherit;
 }
-
 
 /*Agregando la tipografia*/
 
