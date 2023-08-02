@@ -93,3 +93,12 @@ h1.titulo span {
     justify-content: space-between;
 }
 
+/*Añadiendo estilos a la seccion de "Desarrollo web"*/
+.hero {
+    background-image: url("../assets/images/circuit_electronic_computer_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    margin-bottom: 2rem;
+}
+
