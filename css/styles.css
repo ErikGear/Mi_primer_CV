@@ -1,15 +1,13 @@
 /*Definiendo varibles para emplear en los estilos*/
 :root {
-    --blanco: #ffffff;
-    --azul: #023047;
-    --amarillo: #fca311;
-
+  --blanco: #ffffff;
+  --azul: #023047;
+  --amarillo: #fca311;
 }
 
 /*Añadiendo estilos generales al proyecto*/
 html {
-   
-    /*
+  /*
     Lo que hacemos es formatear el valor de 1rem = 16px
     , es decir, que 1 rem equivalga a 10px, ya que el
     62.5% de 16px son 10px 
@@ -17,126 +15,138 @@ html {
     62.5(hmtl) x 16(body) = 1000
     1000 / 100 = 10px
     */
-    font-size: 62.5%;
+  font-size: 62.5%;
 
-    /*De finiendo la familia tipografica para todo el documento*/
-    font-family: 'Krub', sans-serif;
+  /*De finiendo la familia tipografica para todo el documento*/
+  font-family: "Krub", sans-serif;
 
-     /*Hack para solucionar el problema del BoxModel*/
-    box-sizing: border-box;
+  /*Hack para solucionar el problema del BoxModel*/
+  box-sizing: border-box;
 }
 
 /*Agregando la tipografia*/
 
 h1 {
-    font-size: 3.8rem;
+  font-size: 3.8rem;
 }
 
 h2 {
-    font-size: 2.8rem
+  font-size: 2.8rem;
 }
 
 h3 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
-h1, h2, h3 {
-    text-align: center;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
-*, *::before, *::after {
-    /*
+*,
+*::before,
+*::after {
+  /*
     Segunda parte del Hack para solucionar los problemas 
     del BoxModel
 
     Esto significa que todos los elementos que se creen antes 
     o depues emplearan la propiedad BORDER-BOX, del elemento raiz
     */
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-
 h1.titulo {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 h1.titulo span {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .navegacion-principal a {
-    color: var(--blanco);
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 1rem;
-    text-decoration: none;
+  color: var(--blanco);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
 }
 
 .navegacion-principal a:hover {
-    background-color: var(--amarillo);
-    transition: all 0.5s ease;
+  background-color: var(--amarillo);
+  transition: all 0.5s ease;
 }
 
 .nav-bg {
-    background-color: var(--azul);
+  background-color: var(--azul);
 }
 .navegacion-principal {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*Añadiendo estilos a la seccion de "Desarrollo web"*/
 .hero {
-    background-image: url("../assets/images/circuit_electronic_computer_1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45rem;
-    margin-bottom: 2rem;
+  background-image: url("../assets/images/circuit_electronic_computer_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  margin-bottom: 2rem;
 }
 
-.contenido-hero h2, .contenido-hero p {
-    color: var(--blanco);
+.contenido-hero h2,
+.contenido-hero p {
+  color: var(--blanco);
 }
 
 .boton {
-    color: var(--blanco);
-    text-decoration: none;
-    background-color: var(--azul);
-    text-transform: uppercase;
-    padding: 1rem 3rem;
-    font-weight: bold;
-    font-size: 2rem;
-    width: auto;
-    text-align: center;
-    border-radius: 0.5rem;
-    border: none;
-    margin-top: 2rem;
+  color: var(--blanco);
+  text-decoration: none;
+  background-color: var(--azul);
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+  width: auto;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 2rem;
 }
-.contenido-hero a:hover{
-    color: var(--amarillo);
-    transition: all 0.5s ease;
+.contenido-hero a:hover {
+  color: var(--amarillo);
+  transition: all 0.5s ease;
 }
 
 .contenido-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 /*Empleando flexbox, para alinear el icono de la ubicación
 y el texto de parrafo de la misma*/
 .ubicacion {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
+/*Estilos y estrutura correspondientes a la seccion principal*/
+
+.sombra {
+  -webkit-box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
