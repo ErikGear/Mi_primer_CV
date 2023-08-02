@@ -230,10 +230,17 @@ y el texto de parrafo de la misma*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    
+    column-gap: 1rem;
 }
 
 .habilidad{
+    text-align: center;
+}
+
+
+/*Alineando el texto del pie de página*/
+
+footer p {
     text-align: center;
 }
 
