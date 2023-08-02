@@ -103,3 +103,13 @@ h1.titulo span {
     margin-bottom: 2rem;
 }
 
+.contenido-hero h2, .contenido-hero p {
+    color: var(--blanco);
+}
+
+
+.contenido-hero {
+    display: flex;
+    flex-direction: column;
+}
+
