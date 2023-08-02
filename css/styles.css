@@ -5,6 +5,7 @@
   --amarillo: #fca311;
   --iconos: #ffbe0b;
   --formacion: #343a40;
+  --historial-lab: #457b9d;
 }
 
 /*Añadiendo estilos generales al proyecto*/
@@ -111,6 +112,7 @@ h1.titulo span {
   color: var(--blanco);
 }
 
+
 .boton {
   color: var(--blanco);
   text-decoration: none;
@@ -151,6 +153,11 @@ y el texto de parrafo de la misma*/
   box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.75);
   padding: 2rem;
   border-radius: 0.2rem;
+}
+
+/*Añadiendo color a los encabezados de HISTORIAL LABORAL*/
+.historia-laboral h3 {
+    color: var(--historial-lab);
 }
 
 .historia-laboral {
