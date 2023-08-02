@@ -221,4 +221,20 @@ y el texto de parrafo de la misma*/
     list-style-type: circle;
 }
 
+.aptitudes {
+    border: 1rem solid var(--azul);
+    margin: 2rem auto;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.habilidad{
+    text-align: center;
+}
+
 
