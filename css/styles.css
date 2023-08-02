@@ -13,6 +13,9 @@ html {
     Lo que hacemos es formatear el valor de 1rem = 16px
     , es decir, que 1 rem equivalga a 10px, ya que eñ
     62.5% de 16px son 10px 
+
+    62.5(hmtl) x 16(body) = 1000
+    1000 / 100 = 10px
     */
     font-size: 62.5%;
 
