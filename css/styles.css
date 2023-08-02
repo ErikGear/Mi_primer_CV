@@ -188,6 +188,13 @@ y el texto de parrafo de la misma*/
     padding: 2rem;
     margin: 0 auto;
     border-radius: 1rem;
+
+    /*
+    Añadiendo FLEXBOX, para alinear el icono y texto
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
