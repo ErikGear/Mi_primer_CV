@@ -8,11 +8,18 @@
 
 /*Añadiendo estilos generales al proyecto*/
 html {
-    /*Hack para solucionar el problema del BoxModel*/
+   
+    /*
+    Lo que hacemos es formatear el valor de 1rem = 16px
+    , es decir, que 1 rem equivalga a 10px, ya que eñ
+    62.5% de 16px son 10px 
+    */
     font-size: 62.5%;
 
     /*De finiendo la familia tipografica para todo el documento*/
     font-family: 'Krub', sans-serif;
+
+     /*Hack para solucionar el problema del BoxModel*/
     box-sizing: border-box;
 }
 
