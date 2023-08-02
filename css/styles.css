@@ -3,6 +3,7 @@
   --blanco: #ffffff;
   --azul: #023047;
   --amarillo: #fca311;
+  --iconos: #ffbe0b;
 }
 
 /*Añadiendo estilos generales al proyecto*/
@@ -163,4 +164,15 @@ y el texto de parrafo de la misma*/
 
     /*Defineindo el espacio entre el borde las celdas y el contenido de la misma*/
     column-gap: 1rem;
+}
+
+/*Dando fondo y alineación a los iconos*/
+.iconos {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--iconos);
+    border-radius: 50%;
 }
