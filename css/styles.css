@@ -4,6 +4,7 @@
   --azul: #023047;
   --amarillo: #fca311;
   --iconos: #ffbe0b;
+  --formacion: #343a40;
 }
 
 /*Añadiendo estilos generales al proyecto*/
@@ -176,3 +177,17 @@ y el texto de parrafo de la misma*/
     background-color: var(--iconos);
     border-radius: 50%;
 }
+
+.formacion h2 {
+    color: var(--blanco);
+}
+
+.formacion {
+    background-color: var(--formacion);
+    width: min(60rem, 100%);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+
