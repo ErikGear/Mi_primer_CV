@@ -208,6 +208,14 @@ y el texto de parrafo de la misma*/
     color: var(--blanco);
 }
 
+.historia-laboral ul {
+    list-style-type: circle;
+}
+
+.historia-laboral ul li {
+    line-height: 1.5;
+}
+
 .trayectoria li {
     color: var(--blanco);
     list-style-type: circle;
