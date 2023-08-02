@@ -126,3 +126,11 @@ h1.titulo span {
     align-items: center;
 }
 
+
+/*Empleando flexbox, para alinear el icono de la ubicación
+y el texto de parrafo de la misma*/
+.ubicacion {
+    display: flex;
+    align-items: flex-end;
+}
+
