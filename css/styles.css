@@ -123,5 +123,6 @@ h1.titulo span {
 .contenido-hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
