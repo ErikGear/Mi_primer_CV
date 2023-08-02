@@ -3,7 +3,7 @@
     --blanco: #ffffff;
     --azul: #023047;
     --amarillo: #fca311;
-    
+
 }
 
 /*Añadiendo estilos generales al proyecto*/
@@ -41,7 +41,7 @@ h3 {
     font-size: 1.8rem;
 }
 
-h1, h1, h3 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -51,7 +51,6 @@ h1.titulo {
 
 h1.titulo span {
     font-size: 2rem;
-    font-style: italic;
 }
 
 .contendor {
@@ -61,6 +60,5 @@ h1.titulo span {
 
 .navegacion-principal a {
     text-decoration: none;
-    color: ;
 }
 
