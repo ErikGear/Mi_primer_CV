@@ -197,4 +197,13 @@ y el texto de parrafo de la misma*/
     align-items: center;
 }
 
+.formacion p{
+    color: var(--blanco);
+}
+
+.trayectoria li {
+    color: var(--blanco);
+    list-style-type: circle;
+}
+
 
