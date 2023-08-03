@@ -148,12 +148,19 @@ h1.titulo span {
   padding: 1rem 3rem;
   font-weight: bold;
   font-size: 2rem;
-  width: auto;
+  width: 90%;
   text-align: center;
   border-radius: 0.5rem;
   border: none;
   margin-top: 2rem;
 }
+
+@media (min-width: 760px) {
+  .boton{
+    width: auto;
+  }
+}
+
 .contenido-hero a:hover {
   color: var(--amarillo);
   transition: all 0.5s ease;
