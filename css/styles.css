@@ -207,6 +207,7 @@ y el texto de parrafo de la misma*/
     align-items: center;
 }
 
+/*Añadiendo diseño responsive, mediante MEDIA-QUERYS*/
 @media (min-width: 760px) {
   .historial-laboral{
     display: grid;
