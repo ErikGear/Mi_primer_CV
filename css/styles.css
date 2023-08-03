@@ -232,6 +232,7 @@ y el texto de parrafo de la misma*/
 
 .aptitudes {
     border: 1rem solid var(--azul);
+    max-width: 120rem;
     margin: 2rem auto;
 }
 
