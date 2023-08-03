@@ -38,7 +38,7 @@ html {
     el valor de "madatory" nos ayuda a hacer scroll, de una forma mas rapida,
     tambien podemos emplear el valor de "proximity", esto hara que el scroll sea mas lento.
     */
-  scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
 }
 
 /*Agregando la tipografia*/
@@ -114,6 +114,7 @@ h1.titulo span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 @media (min-width: 768px) {
   .navegacion-principal {
@@ -127,6 +128,7 @@ h1.titulo span {
   background: url("../assets/images/computer.jpg") no-repeat 100%;
   background-size: cover;
 
+  
   height: 45rem;
   margin-bottom: 2rem;
   position: relative;
@@ -136,6 +138,7 @@ h1.titulo span {
 .contenido-hero p {
   color: var(--blanco);
 }
+
 
 .boton {
   color: var(--blanco);
@@ -153,7 +156,7 @@ h1.titulo span {
 }
 
 @media (min-width: 760px) {
-  .boton {
+  .boton{
     width: auto;
   }
 }
@@ -195,18 +198,18 @@ y el texto de parrafo de la misma*/
 
 /*Añadiendo color a los encabezados de HISTORIAL LABORAL*/
 .historia-laboral h3 {
-  color: var(--historial-lab);
+    color: var(--historial-lab);
 }
 
 .historia-laboral {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Añadiendo diseño responsive, mediante MEDIA-QUERYS*/
 @media (min-width: 760px) {
-  .historial-laboral {
+  .historial-laboral{
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -217,70 +220,74 @@ y el texto de parrafo de la misma*/
 
 /*Dando fondo y alineación a los iconos*/
 .iconos {
-  width: 15rem;
-  height: 15rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: var(--iconos);
-  border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--iconos);
+    border-radius: 50%;
 }
 
 .formacion h2 {
-  color: var(--blanco);
+    color: var(--blanco);
 }
 
 .formacion {
-  background-color: var(--formacion);
-  width: min(60rem, 100%);
-  padding: 2rem;
-  margin: 0 auto;
-  border-radius: 1rem;
+    background-color: var(--formacion);
+    width: min(60rem, 100%);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
 
-  /*
+    /*
     Añadiendo FLEXBOX, para alinear el icono y texto
     */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.formacion p {
-  color: var(--blanco);
+.formacion p{
+    color: var(--blanco);
 }
 
 .historia-laboral ul {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 .historia-laboral ul li {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 .trayectoria li {
-  color: var(--blanco);
-  list-style-type: circle;
+    color: var(--blanco);
+    list-style-type: circle;
 }
 
 .aptitudes {
-  border: 1rem solid var(--azul);
-  max-width: 120rem;
-  margin: 2rem auto;
+    border: 1rem solid var(--azul);
+    max-width: 120rem;
+    margin: 2rem auto;
 }
 
 /*Añadiendo diseño responsive*/
-@media (min-width: 760px) {
+@media (min-width: 760px) { 
   .habilidades {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 1rem;
-  }
+  }    
 }
 
-.habilidad {
-  text-align: center;
+
+.habilidad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 /*Alineando el texto del pie de página*/
 
@@ -289,5 +296,7 @@ footer {
 }
 
 footer p {
-  text-align: center;
+    text-align: center;
 }
+
+
