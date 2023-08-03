@@ -1,0 +1,52 @@
+html {
+  /*
+      Lo que hacemos es formatear el valor de 1rem = 16px
+      , es decir, que 1 rem equivalga a 10px, ya que el
+      62.5% de 16px son 10px 
+  
+      62.5(hmtl) x 16(body) = 1000
+      1000 / 100 = 10px
+      */
+  font-size: 62.5%;
+
+  /*De finiendo la familia tipografica para todo el documento*/
+  font-family: "Krub", sans-serif;
+
+  /*Hack para solucionar el problema del BoxModel*/
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  /*
+      Segunda parte del Hack para solucionar los problemas 
+      del BoxModel
+  
+      Esto significa que todos los elementos que se creen antes 
+      o depues emplearan la propiedad BORDER-BOX, del elemento raiz
+      */
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+}
