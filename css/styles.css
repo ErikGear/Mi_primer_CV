@@ -6,6 +6,10 @@
   --iconos: #ffbe0b;
   --formacion: #343a40;
   --historial-lab: #457b9d;
+
+  /*Añadiendo colores de degradado*/
+  --superior: #f8f9fa;
+  --inferior: #e9ecef;
 }
 
 /*Añadiendo estilos generales al proyecto*/
@@ -60,8 +64,11 @@ h3 {
   box-sizing: inherit;
 }
 
+/*Añadiendo gradiente para establecer un degradado al cuerpo
+de mi pagina web*/
 body {
   font-size: 16px;
+  background: linear-gradient(to top, var(--superior) 0%, var(--inferior) 100%);
 }
 
 h1.titulo {
@@ -244,7 +251,7 @@ y el texto de parrafo de la misma*/
 }
 
 .habilidad{
-    text-align: center;
+  text-align: center;
 }
 
 
