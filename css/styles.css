@@ -250,6 +250,10 @@ y el texto de parrafo de la misma*/
 
 /*Alineando el texto del pie de página*/
 
+footer {
+  margin-top: 5rem;
+}
+
 footer p {
     text-align: center;
 }
